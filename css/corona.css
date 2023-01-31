@@ -1,0 +1,744 @@
+/* Start global rule */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  ul {
+    list-style: none;
+  }
+
+/* End global rule */
+
+
+/* Start First Section */
+.firstSection{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+.firstSection .header ul{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 200px);
+    margin-left: 100px;
+    background-color: #ed242e;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.firstSection span{
+    font-weight: bold;
+}
+
+.firstSection .header ul li:hover{
+    color: black;
+    cursor:default ;
+    transition: .4s;
+}
+
+.firstSection .header img{
+    position: absolute;
+    margin-left: 620px;
+    top: 70px;
+    z-index: 4;
+}
+
+.firstSection .header .left{
+    position: absolute;
+    background-color: rgb(2, 35, 66);
+    padding: 45px;
+    top: 0px;
+    color: white;
+    z-index: -1;
+}
+
+.firstSection .header .right{
+    position: absolute;
+    background-color: rgb(2, 35, 66);
+    right: 0;
+    padding: 45px;
+    top: 0px;
+    color: white;
+    z-index: -1;
+}
+
+
+.firstSection .container{
+    position: relative;
+    background-image: url(../Images/banner.png);
+    height: 100vh;
+    top: -53px;
+    z-index: 3;
+}
+
+.firstSection .container h1{
+    padding-bottom: 70px;
+    text-align: left;
+    padding-top: 180px;   
+    color: white;
+    font-size: 80px;
+    font-weight: bold; 
+    padding-left: 120px;
+}
+
+.firstSection .container button{
+    padding: 20px 40px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 120px;
+}
+
+.firstSection .container button:hover{
+    background-color: red;
+    color: white;
+    cursor:pointer;
+    transition: .4s;
+}
+/* End First Section */
+
+/* Start Second Section */
+    .secondSection{
+        padding: 0;
+        margin: 0;
+    }
+
+    .secondSection .container{
+        width: 90%;
+        height: 90%;
+        border-radius: 80px;
+        background-color: rgb(233, 229, 229);
+        position: relative; 
+        top: -120px;
+        z-index: 4;
+        left: 70px;
+        padding: 50px 0;
+    }
+
+    .secondSection .container .title h1{
+        position: absolute;
+        top: 20%;
+        left: 50px;
+        color: rgb(75, 70, 70);
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .secondSection .container .title p{
+        position: absolute;
+        top: 35%;
+        padding-top: 30px;
+        
+        font-size: 20px;
+        left: 50px;
+        line-height: 1.8;
+    }
+
+   .secondSection .container .img img{
+    padding-left: 55%;
+}
+
+    .secondSection .container button{
+        position: absolute;
+        top: 300px;
+        left: 50px;
+        border: none;
+        padding: 20px 30px;
+        background-color: rgb(2, 35, 66);
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .secondSection .container button:hover{
+        background-color: red;
+        color: white;
+        transition: .6s;
+        cursor: pointer;
+    }
+/* End Second Section */
+
+/* Start Third Section */
+    .thirdSection{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .thirdSection .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+        width: 92%;
+        height: 500px;
+        position: relative;
+    }
+
+    .thirdSection .container .text h1{
+        color: rgb(66, 66, 66);
+        font-size: 45px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .thirdSection .container .text p{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .thirdSection .container .image img{
+        padding-left: 25px ;
+    }
+    .thirdSection .container button{
+        position: absolute;
+        background-color: rgb(2, 35, 66);
+        color: white;
+        border: none;
+        right: 0;
+        top: 70%;
+        transform: translateX(-78%);
+        padding: 30px 80px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .thirdSection .container button:hover{
+        background-color: red;
+        color: white;
+        transition: 1s;
+        cursor: pointer;
+    }
+/* End Third Section */
+
+/* Start Fourth Section  */
+    .fourthSection{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .fourthSection .container{
+        position: relative;
+        width: 100%;
+    }
+
+    /* .fourthSection .container .title{
+        display: flex;
+        justify-content: center;
+    } */
+
+    .fourthSection .container .title h1{
+        display: flex;
+        justify-content: center;
+        color: rgb(66, 66, 66);
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .fourthSection .container .title p{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: -15px;
+        color: gray;
+    }
+
+    .fourthSection .container .box{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 15px;
+        background-image: url(../Images/cases2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        border-radius: 180px;
+        margin-top: 70px;
+        position: relative;
+        opacity: .7;
+    }
+
+    .fourthSection .container .box .box1{  
+         margin-top: 22%;
+         margin-left: 15%;
+         background-color: white;
+         width: 400px;
+         height: 300px;
+         border-radius: 30px;
+    }
+    .fourthSection .container .box .box2{
+        margin-top: 22%;
+        margin-left: 5%;
+         background-color: white;
+         width: 400px;
+         height: 300px;
+         border-radius: 30px;
+    }
+    .fourthSection .container .box .box3{
+        margin-top: 22%;
+        margin-left: -5%;
+         background-color: white;
+         width: 400px;
+         height: 300px;
+         border-radius: 30px;
+    }
+
+    .fourthSection .container .box .box1 img{
+        padding-top: 30px;
+        padding-left: 40%;
+    }
+
+    .fourthSection .container .box .box1 h3{
+        padding-left: 150px;
+        padding-top: 20px;
+        color: black;
+        font-size: 18px;
+    }
+
+    .fourthSection .container .box .box1 p{
+        padding-left: 20px;
+        padding-top: 10px;
+        line-height: 1.5;
+        font-size: 15px;
+        text-align: center;
+    }
+    .fourthSection .container .box .box2 img{
+        padding-top: 18px;
+        padding-left: 40%;
+        
+    }
+
+    .fourthSection .container .box .box2 h3{
+        padding-left: 130px;
+        padding-top: 20px;
+        color: black;
+        font-size: 18px;
+    }
+
+    .fourthSection .container .box .box2 p{
+        padding-left: 20px;
+        padding-top: 10px;
+        line-height: 1.5;
+        font-size: 15px;
+        text-align: center;
+    }
+    .fourthSection .container .box .box3 img{
+        padding-top: 20px;
+        padding-left: 40%;
+    }
+
+    .fourthSection .container .box .box3 h3{
+        padding-left: 150px;
+        padding-top: 20px;
+        color: black;
+        font-size: 18px;
+    }
+
+    .fourthSection .container .box .box3 p{
+        padding-left: 20px;
+        padding-top: 10px;
+        line-height: 1.5;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .fourthSection .container .box button{
+        margin-left: 31%;
+        margin-top: 100px;
+        padding: 20px 40px;
+        background-color: rgb(2, 35, 66);
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+
+    .fourthSection .container .box button:hover{
+        background-color: red;
+        color: white;
+        transition: 1s;
+        cursor: pointer;
+    }
+/* End Fourth Section  */
+
+/* Start Fifth Sectoin */
+    .fifthSection{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .fifthSection .container{
+        width: 90%;
+        /* position: relative; */
+    }
+
+    .fifthSection .container .title h1{
+        display: flex;
+        justify-content: center;
+        color: rgb(66, 66, 66);
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .fifthSection .container .title p{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: -15px;
+        color: gray;
+    }
+
+    .fifthSection .container .box{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 50px;
+        margin-top: 40px;
+        background-color: rgb(220 , 248 , 248 ,.6);
+    }
+
+    .fifthSection .container .box .box1,
+    .fifthSection .container .box .box2,
+    .fifthSection .container .box .box3{
+        width: 400px;
+        height: 550px;
+        background-color: rgb(255, 254, 254);
+        margin-left: 50px;
+        margin-right: 15px;
+        position: relative;
+        border-radius: 15px;
+    }
+
+    .fifthSection .container .box .box1 img.img1,
+    .fifthSection .container .box .box2 img.img2,
+    .fifthSection .container .box .box3 img.img3{
+        width: 350px;
+        height: 175px;
+        margin: 25px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
+    .fifthSection .container .box .box1 h3,
+    .fifthSection .container .box .box2 h3,
+    .fifthSection .container .box .box3 h3{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .fifthSection .container .box .box1 p,
+    .fifthSection .container .box .box2 p,
+    .fifthSection .container .box .box3 p{
+        text-align: center;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    .fifthSection .container .box .box1 img.img11,
+    .fifthSection .container .box .box2 img.img22,
+    .fifthSection .container .box .box3 img.img33{
+        position: absolute;
+        bottom: -40px;
+        left: 150px;
+    }
+
+    .fifthSection .container .box .box1 button,
+    .fifthSection .container .box .box2 button,
+    .fifthSection .container .box .box3 button{
+        position: absolute;
+        top: 115px;
+        left: 115px;
+        padding: 20px 40px;
+        background-color: rgb(2, 35, 66);
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+
+    .fifthSection .container .box button:hover{
+        background-color: red;
+        color: white;
+        transition: 1s;
+        cursor: pointer;
+    }
+/* End Fifth Sectoin */
+
+/* Start Sixth Section */
+    .sixthSection{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .sixthSection .container{
+        width: 100%;
+    }
+
+    .sixthSection .container .title{
+        display: flex;
+        justify-content: center;
+        color: rgb(66, 66, 66);
+        font-weight: bold;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-bottom: 50px;
+    }
+
+    .sixthSection .container .box{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+        gap: 40px;
+        background-image: url(../Images/case.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* position: relative; */
+    }
+
+    .sixthSection .container .box .box1,
+    .sixthSection .container .box .box2{ 
+        background-color:aliceblue;
+        width: 600px;
+        height: 450px;
+        left: 0;
+        margin-left: 50px;
+        border-radius: 15px;
+        position: relative;
+    }
+   
+    .sixthSection .container .box .box1 img,
+    .sixthSection .container .box .box2 img{
+        position: absolute;
+        left: 250px;
+        top: -55px;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+
+    .sixthSection .container .box .box1 h3,
+    .sixthSection .container .box .box2 h3{
+        position: absolute;
+        top: 20%;
+        left: 230px;
+        font-weight: bold;
+    }
+
+    .sixthSection .container .box .box1 p,
+    .sixthSection .container .box .box2 p{
+        position: absolute;
+        top: 35%;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    .sixthSection .container .box .box1 i,
+    .sixthSection .container .box .box2 i{
+        position: absolute;
+        top: 80%;
+        left: 280px;
+    }
+/* End Sixth Section */
+
+/* Start Seventh Section */
+    .seventhSection{
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    .seventhSection .container{
+        width: 100%;
+    }
+
+    .seventhSection .container .title h1{
+        display: flex;
+        justify-content: center;
+        color: rgb(66, 66, 66);
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        padding-bottom: 50px;
+    }
+
+    .seventhSection .container .box{
+        background-image: url(../Images/ever_bg.jpg);
+        height: 300px;
+        
+        margin-top: -30px;
+        position: relative;
+    }
+
+    .seventhSection .container .box input{
+        border: none;
+        width: 80%;
+        position: absolute;
+        top: 60px;
+        left: 130px;
+        padding: 40px 0;
+        border-radius: 60px;
+        padding-left: 25px;
+        background: rgb(255, 255, 255 , 0);
+        color: rgb(255, 255, 255);
+        outline: none;
+        box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+        display: block;
+        border: 1px solid white;
+    }
+
+    .seventhSection .container .box input::placeholder{
+        color: white;
+    }
+
+    .seventhSection .container .box button{
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        padding: 25px 60px;
+        border: none;
+        border-radius: 50px;
+        background-color: rgb(2, 35, 66);
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .seventhSection .container .box button:hover{
+        background-color: red;
+        color: white;
+        transition: 1s;
+        cursor: pointer;
+    }
+/* End Seventh Section */
+
+/* Start Last Section */
+    .lastSection{
+        padding-top: 0;
+    }
+    .lastSection .container{
+        width: 100%;
+        background-color: black;
+        color: white;
+        height: 80vh;
+        position: relative;
+    }
+
+    .lastSection .container .box{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .lastSection .container .box1{
+        width: 300px;
+        padding-left: 80px;
+        padding-top: 50px;
+        display: block;
+    }
+
+    .lastSection .container .box1 h3{
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    .lastSection .container .box1 ul li{
+        padding-top: 12px;
+        color: gray;
+    }
+
+    .lastSection .container .box1 ul li:hover{
+        cursor: pointer;
+        color: orangered;
+        transition: .7s;
+    }
+
+    .lastSection .container .box2{
+        width: 300px;
+        padding-top: 50px;
+        padding-left: 80px;
+    }
+
+    .lastSection .container .box2 h3{
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    .lastSection .container .box2 p{
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    .lastSection .container .box3{
+        width: 300px;
+        padding-top: 50px;
+        padding-left: 80px;
+        position: relative;
+    }
+
+    .lastSection .container .box3 i{
+        position: relative;
+        display: block;
+        padding-top: 15px;
+    }
+
+    .lastSection .container .box3 p{
+        position: relative;
+        padding-left: 25px;
+        top: -18px;
+    }
+
+    .lastSection .container .box3 h3{
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    .lastSection .container .box4{
+        width: 300px;
+        padding-left: 80px;
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .lastSection .container .box4 h3{
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    .lastSection .container .box4 img{
+        position: absolute;
+        right: -15px;
+        top: 100px;
+    }
+
+    .lastSection .container hr{
+        width: 80%;
+        position: absolute;
+        top: 450px;
+        left: 130px;
+    }
+
+    .lastSection .container .copy i{
+        position: absolute;
+        top: 500px;
+        left: 450px;
+    }
+
+    .lastSection .container .copy p{
+        position: absolute;
+        top: 498px;
+        left: 485px;
+        font-size: 18px;
+        
+    }
+/* End Last Section */
