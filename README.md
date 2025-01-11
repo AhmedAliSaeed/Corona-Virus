@@ -1,4 +1,4 @@
-🖥️ Corona Virus
+🖥️ Corona Virus Project
 
 A responsive, multi-section webpage built using HTML, CSS, and JavaScript. This project aims to provide a visually appealing and user-friendly experience with smooth animations and interactive elements.
 
